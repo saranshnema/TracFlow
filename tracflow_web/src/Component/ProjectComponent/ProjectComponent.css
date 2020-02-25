@@ -1,0 +1,21 @@
+.projectDetailsInput{
+    margin: auto;
+    margin-top: 4%;
+}
+.project-componenet-div{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: smaller;
+    background-color: #FBFBFD;
+    display: flex;
+    /* min-width: 500px; */
+    width: 100%;
+    
+    color: #494949;
+}
+.inputHeight{
+    height: 20%;
+}
+.projectAddress{
+    height: 60%;
+}

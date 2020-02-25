@@ -1,0 +1,401 @@
+.containerDiv{
+  display: flex;
+  
+}
+
+.visited {
+  font-weight: bold;
+}
+
+
+.navigationComponent{
+  position: absolute;
+  top: 217px;
+  left: 351px;
+  width: 220px;
+  height: 433px;
+  
+  background-color:rgba(207, 209, 218, 0.2);
+  
+}
+.innerNav{
+  
+  justify-content: "space-between";
+  display: 'flex';
+  position: 'relative',;
+  top: '54px';
+  left: '33px';
+} 
+.cont{
+  height: 100px;
+  width: 200px;
+  background-color: #C0C6DE;
+  opacity: 0.3;
+}
+.header-container{
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 2.25em;
+  display: block;
+  position: relative;
+  text-align: center;
+  /* height: 1px; */
+  margin: 15px 0px 25px 0px;
+  width: 100%;
+  /* padding: 0.5em; */
+  font-family: Montserrat;
+}
+.side-application-div{
+  text-align: left;
+  padding: 60px 50px;
+  margin-left: 4em;
+  max-width: 20em;
+  display: flex;
+
+}
+.side-componenet-div{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: smaller;
+  background-color: #FBFBFD;
+  display: flex;
+  /* min-width: 500px; */
+  width: 100%;
+  height: 25%;
+  color: #494949;
+}
+.bg-color{
+  background-color: white;
+}
+
+.current-active{
+  font-weight: bold;
+}
+.mainFormDiv{
+  width: 100%;
+  
+}
+.SortFilterContainer{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 36px;
+  padding-top: 2px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.SortFilterContainer input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  
+}
+.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  border: #2196F3 solid 2px;
+  background-color:  #FFFFFF;
+  border-radius: 50%;
+}
+.SortFilterContainer :hover input ~ .checkmark{
+  background-color: #ccc;
+
+}
+  
+.SortFilterContainer  input:checked ~ .checkmark{
+  background-color: #2196F3;
+  
+}
+.checkmark ::after{
+  content: '';
+  position: absolute;
+  display: none;
+
+}
+.SortFilterContainer  input:checked ~ .checkmark ::after{
+  display: block;
+}
+.SortFilterContainer   .checkmark::after{
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+
+}
+.filter_inside{ 
+  height: 10px;
+   color: #63666A; 
+   margin: 0px 10px 0px ; 
+  justify-content: center;
+  padding: 25px 10px 25px;
+  background-color: #FBFBFB; 
+  font-size: smaller; font-weight: 500;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  }
+  .side-component-first-name{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    .side-component-last-name{
+      padding-top: 40px;
+      padding-left: 60px;
+      margin-right: 6px;
+  }
+  .outer-filter-component{
+      padding-left: 40px;
+      padding-bottom: 80px;
+      padding-top: 80px;
+      width: 320px;
+      box-shadow: 0 0 5px 3px rgba(0,0,0,0.13);
+      /* border-right: 1px solid #979797; */
+      background-color: #FBFBFD;
+  }
+
+  .mainDiv{
+      margin-left: 80px;
+      width: 90%;
+      display: -webkit-inline-flex;
+      display: inline-flex;
+  }
+  .input-css{
+    height: 3.5vh;
+    width: 15vw;
+    border: #E6E8ED 1px solid;
+    border-radius: 4px;
+    padding-left: 4%;
+  }
+  .inner-div{
+      margin: auto;
+  }
+.inner-div label {
+  line-height: 2.5;
+}
+
+.inner-divRadio {
+  margin: 5% 10.5% 5% 10.5% ;
+}
+
+.inner-divRadio label{
+  margin: 3px;
+  margin-right: 12px;
+}
+.next-form{
+  text-align: right;
+  cursor: pointer;
+  /* margin-right: 15.3vh; */
+  margin-top: 2vh;
+  /* width: 90%; */
+  margin-left: 2vw;
+
+}
+
+.next-form input{
+  display: inline-block;
+  padding: 6px 34px;
+  font-size: smaller;
+  font-weight: normal;
+  line-height: 1.48;
+  text-align: center;
+  white-space: nowrap;
+  /* vertical-align: middle; */
+  border-radius: 3px;
+  color: white;
+  background-color: #2196F3;
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner-divRadio {
+      margin: 6.7%;
+  }
+
+  .next-form{
+      text-align: right;
+      cursor: pointer;
+      /* margin-right: 10.3vh; */
+      margin-top: 2vh;
+      /* width: 94%; */
+  }
+  .submitButtonModal{
+      text-align: right;
+      cursor: pointer;
+      /* margin-right: 10.3vh; */
+      margin-top: 2vh;
+      margin-right: 3vh;
+    }
+    .cancelButtonModal{
+      text-align: right;
+      cursor: pointer;
+      /* margin-right: 10.3vh; */
+      margin-top: 2vh;
+      margin-right: 7vh;
+    }
+  
+}
+
+.timeline-block {
+  position: relative;
+  height: 180px;
+  z-index: 1;
+}
+
+.timeline-block .timeline-line {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  height: 100%;
+  width: 6px;
+  background: #D4D4D4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.timeline-block .timeline-progress {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 0;
+  width: 6px;
+  border-radius: 6px;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+  background: #7abcff; /* Old browsers */
+  background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+
+  cursor: pointer;
+}
+
+.timeline-bookmark {
+  position: absolute;
+  top: 0px;
+  left: 36px;
+}
+
+.timeline-bookmark>div{
+  margin-top: -8px;
+  margin-left: 5px;
+}
+
+div.timeline-bookmark::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -21px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 0 3px #4286f4, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 3px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+div.timeline-bookmark.visited::before {
+  opacity: 0.7;
+}
+
+
+div.timeline-bookmark:hover::before {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 0px;
+  left: 36px;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.timeline-marker>div.text{
+  margin-top: -14px;
+  font-style: italic;
+}
+
+div.timeline-marker::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -21px;
+  height: 0px;
+  width: 12px;
+  border-bottom: 2px solid #000;
+}
+
+.customModal {
+  
+  width: 30vw;
+  height: 40vh;
+  
+}
+.imageModal{
+  width: 23vh;
+}
+.formanDetailsHeader{
+  margin-left: 4%;
+  font-family: Montserrat-Medium;
+  font-size: x-large;
+  letter-spacing: -0.21px;
+}
+.enterPhoneNumberText{
+  text-align: left;
+  font-family: Montserrat-Medium;
+  font-size: smaller;
+  color: rgba(35,35,39,0.84);
+  letter-spacing: -0.11px;
+  margin-left: 4%;
+}
+.inputModal{
+  margin-top: 4%;
+  width: 26vw;
+  height: 4vh;
+  margin-left: 4%;
+}
+
+.submitButtonModal{
+  text-align: right;
+  cursor: pointer;
+  /* margin-right: 10.3vh; */
+  margin-top: 2vh;
+  margin-right: 4vh;
+}
+.submitButton{
+  display: inline-block;
+  padding: 6px 27px;
+  font-size: smaller;
+  font-weight: normal;
+  line-height: 1.48;
+  text-align: center;
+  white-space: nowrap;
+  /* vertical-align: middle; */
+  border-radius: 3px;
+  color: white;
+  background-color: #2196F3;
+}
+
+.cancelButton{
+    margin-right: 4%;
+  display: inline-block;
+  padding: 6px 17px;
+  font-size: smaller;
+  font-weight: normal;
+  line-height: 1.48;
+  text-align: center;
+  white-space: nowrap;
+  /* vertical-align: middle; */
+  border-radius: 3px;
+  color: grey;
+  background-color: white;
+}
+

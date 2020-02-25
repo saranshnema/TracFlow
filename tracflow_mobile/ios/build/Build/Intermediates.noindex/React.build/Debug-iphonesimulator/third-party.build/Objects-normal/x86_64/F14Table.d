@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.cpp \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Users/nusxk19/tracFlow/tracflow_mobile/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h

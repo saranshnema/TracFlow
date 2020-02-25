@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+.containerDiv{
+    display: flex;
+    
+
+}
+.imageComponent{    
+    display: inline-flex;
+    width: 100%;
+}
+
+.nextButtonContainer{
+    text-align: right;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+
+.nextButtonContainer input{
+    display: inline-block;
+    padding: 6px 34px;
+    font-size: smaller;
+    font-weight: normal;
+    line-height: 1.48;
+    text-align: center;
+    white-space: nowrap;
+    /* vertical-align: middle; */
+    border-radius: 3px;
+    color: white;
+    background-color: #2196F3;
+}
+
+.image-details{
+    height: 58vh;
+    width: 48vw;
+    padding: 4vw 4vw 0vw 4vw;
+}
+.nextButton{
+    position: relative;
+    background-color: #2196F3;
+    top: 654px;
+    left: 234px;
+    width: 100px;
+    height: 35px;
+}

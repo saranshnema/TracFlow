@@ -1,0 +1,322 @@
+.sidebar {
+	/* position: relative; */
+  height: 100%;
+	width: 5vw;
+	min-width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+	padding-top: 16px;
+	border:1px solid lightgray;
+	padding-top: 100px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.ticketsContainer{
+	position: relative;
+}
+
+.headerContainerTickets{
+	padding-left: 7vw;
+	display: inline-flex;
+	height: 11vh;
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.searchBar{
+	padding: 10px;
+	text-align: center;
+	width: 12vw;
+	margin-right: 1vw
+}
+
+.searchBarContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5vh;
+	/* padding-right: 4%; */
+}
+
+.ticketsNav{
+    list-style-type: none;
+    margin:0;
+    overflow: hidden;
+    background-color: white;
+		height: 11vh;
+		margin-right: 10%;
+	}
+	
+.ticketsNav li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		line-height: 11vh;
+	}
+
+ .ticketNavItems{
+    display: block;
+    color: black;
+    /* text-align: center; */
+    margin-left: 7vw;
+    text-decoration: none;
+	}
+	
+	.ticketHeader{
+		padding-left: 8vw;
+		padding-top: 12vh;
+	}
+
+	.tickectTabContainer {
+		padding-left: 7vw;
+		margin-top: 10px;
+		background-color: white;
+		width: 15%;
+		display: inline-flex;
+	}
+
+
+	.ticketHeader h1 {
+		font-weight: normal;
+		color: dimgray;
+	}
+
+	.ticketTab{
+		/* width: 250px; */
+		border-radius: 5px;
+		height: 50px;
+		border: 1px solid lightgray;
+		align-items: center;
+		display: flex;
+		padding: 4px;
+		margin-bottom: 20px;
+		min-width: 15vw;
+	}
+
+	.ticketTabText{
+		font-weight: normal;
+		margin-left: 25px;
+		color: gray;
+	}
+
+	.progressBarHeader{
+		font-weight: normal;
+		color: gray;
+	}
+	.ticketBody{
+		margin-left: 1vw;
+		justify-content: center;
+	}
+
+	.emptyHead{
+		min-width: 13vw;
+		text-align: center;
+		margin-left: 1vw;
+
+	}
+
+	.submitted{
+		/* margin-left: 4vw; */
+		min-width: 15vw;
+		text-align: center;
+		margin-left: 1vw;
+
+	}
+
+	.workDate{
+		/* margin-left: 2vw; */
+		min-width: 7vw;
+		text-align: center;
+		margin-left: 1vw;
+
+	}
+
+	.status{
+		/* margin-left: 4vw; */
+		min-width: 9vw;
+		text-align: center;
+		margin-left: 1vw;
+
+
+	}
+
+	.emptyHeadChild{
+		min-width: 13vw;
+		border: 1px solid lightgray;
+		border-radius: 5px;
+		/* height: 1vh; */
+		min-height: 40px;
+		margin-left: 1vw;
+		margin-bottom: 2vh;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+
+	.submittedChild{
+		/* margin-left: 4vw; */
+		min-width: 15vw;
+		border-radius: 5px;
+		border: 1px solid lightgray;
+		margin-left: 1vw;
+		text-align: center;
+		margin-bottom: 2vh;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+
+	.workDateChild {
+		/* margin-left: 4vw; */
+		min-width: 7vw;
+		border-radius: 5px;
+		border: 1px solid lightgray;
+		margin-left: 1vw;
+		text-align: center;
+		margin-bottom: 2vh;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+
+	.statusChild{
+		min-width: 7vw;
+		border-radius: 5px;
+		border: 1px solid lightgray;
+		margin-left: 1vw;
+		text-align: center;
+		margin-bottom: 2vh;
+		/* justify-content: center; */
+		display: flex;
+		align-items: center;
+		padding: 0% 0% 0 3%;
+	}
+
+	.ticketHeaderText {
+		margin: 0;
+		padding: 0;
+		/* color: gray */
+	}
+
+	.ticketRightSidebar{
+		/* height: 100vh; */
+		background-color: aliceblue;
+		margin: 0;
+		padding-top: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		height: 100vh;
+	}
+
+
+	.collapsible {
+		background-color: #3371EB;
+		color: white;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		margin-bottom: 5%;
+	}
+	
+	.active, .collapsible:hover {
+		background-color: #3371EB;
+	}
+	
+	.content {
+		padding: 0 18px;
+		display: none;
+		overflow: hidden;
+		background-color: white;
+	}
+
+	.contentShow {
+			padding: 0 18px;
+			display: block;
+			overflow: hidden;
+			background-color: white;
+			margin-bottom: 5%;
+	}
+
+	.dot {
+		height: 12px;
+		width: 12px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		background-color:green;
+		margin-right: 5%;
+	}
+
+	.rightTab {
+				/* width: 250px; */
+				/* height: 50px; */
+				align-items: center;
+				display: flex;
+				padding: 4px;
+				margin-bottom: 20px;
+				min-width: 15vw;
+	}
+
+
+	.bar {
+		border: 1px solid red;
+		height: 2px;
+		width: 100%;
+	 }
+	 
+	 .in {
+		animation: fill 10s linear 1;
+		height: 100%;
+		background-color:#E0004D;
+	 }
+	 
+	 @keyframes fill {
+		0% {
+			width: 0%;
+		}
+		100% {
+			width: 60%;
+		}
+	 }
+
+	 .pagination {
+		display: inline-block;
+		float: right;
+	}
+	
+	.pagination a {
+		color: black;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+	
+	.pagination a.active {
+		background-color: #3371EB;
+		color: white;
+	}

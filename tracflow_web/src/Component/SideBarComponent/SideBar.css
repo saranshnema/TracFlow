@@ -1,0 +1,29 @@
+.sideBar{
+    height: 100vh;
+    width: 18vw;
+    min-width: 200px;
+    background-color: #465365;
+    display: flex;
+    justify-content: center;
+}
+.side_Text{
+    display: flex;
+    font-size: x-large;
+    color: white;
+    text-align: -webkit-center;
+    font-weight: inherit;
+    font-family: Montserrat;
+    margin-top: 80%;
+    vertical-align: "center";
+    line-height: 1.7;
+    width: 11vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sideBar{
+        height: 100vh;
+        width: 26vw;
+        background-color: #465365;
+    }
+    
+  }

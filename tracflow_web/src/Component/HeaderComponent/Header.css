@@ -1,0 +1,94 @@
+
+
+ul.topnav {
+    list-style-type: none;
+    /* margin-left: 4vw; */
+    margin:0;
+    /* padding-left:  8vw; */
+    overflow: hidden;
+    background-color: white;
+    height: 11vh;
+    width: 100vw;
+    margin-left: 5vw;
+  }
+
+ .headerContainer{
+     display: inline-flex;
+     height: 11vh;
+     box-shadow: rgba(0, 0, 0, 0.23)0px 0px 5px 3px;
+     width: 100%;
+ } 
+
+  ul.topnav li {
+      float: left;
+      margin: 0;
+      padding: 0;
+      line-height: 11vh;
+    }
+  
+ .navItems{
+    display: block;
+    color: black;
+    /* text-align: center; */
+    margin-left: 7vw;
+    text-decoration: none;
+  }
+  
+  .FirstLi{
+    margin: 0;
+    display: block;
+    color: black;
+    /* text-align: center; */
+    text-decoration: none;
+  }
+
+
+  .AppLogo{
+    height: auto;
+    width: 15vw;
+    padding: 1%;
+  }
+
+  .buttonContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 8vw;
+  }
+
+  .LogInButton{
+      padding: 10px;
+      width: 150px;
+      background-color: #2196F3;
+      color:white;
+      height: 40px;
+      font-size: 14px; 
+      border-radius: 5px;
+  }
+  /* ul.topnav li a:hover:not(.active) {background-color: lightblue;} */
+  
+  /* ul.topnav li a.active {background-color: white;} */
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+
+    ul.topnav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+      }
+  }
+
+  @media screen and (max-width: 1130px) {
+    .LogInButton{
+        padding: 10px;
+        margin-left: 3vw;
+        width: 100px;
+        background-color: #2196F3;
+        color:white;
+        border-radius: 5px;
+    }
+  }

@@ -1,0 +1,73 @@
+.statusCell{
+	padding: 0.1em;
+	border: 1px solid lightgray;
+	min-width: 7.5vW;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+
+.statusCellText {
+	padding: 0;
+	margin: 1vh;
+	color: green;
+	font-weight: normal;
+}
+
+.statusCellClosedText{
+	padding: 0;
+	margin: 1vh;
+	color: red;
+	font-weight: normal;
+}
+.dateCell {
+	padding: 0.1em;
+	border: 1px solid lightgray;
+	min-width: 7.5vW;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background-color: white;
+}
+.dateCellText{
+	padding: 0;
+	margin: 1vh;
+	color: black;
+	font-weight: normal;
+}
+
+.moneyCellText{
+	padding: 0;
+	margin: 1vh;
+	color: black;
+	font-weight: bold;
+}
+
+.subjectCell{
+	padding: 0.1em;
+	border: 1px solid lightgray;
+	min-width: 12.5vW;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 14px;
+}
+
+.checkIcon {
+	font-size: 34px;
+	margin-left: 20px;
+	color:green; 
+	cursor: pointer;
+}
+
+.checkIconCross {
+	font-size: 34px;
+	margin-left: 20px;
+	color:red; 
+	cursor: pointer;
+}
